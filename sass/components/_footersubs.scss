@@ -1,0 +1,128 @@
+.footer-subs,
+.footer-icons {
+  display: flex;
+}
+
+.footer-subs__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: $white-text;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.footer-subs {
+  margin-left: 70px;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+.footer-icons {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.footer-link__icon {
+  content: '';
+  fill: currentColor;
+
+  &:hover,
+  &:focus {
+    content: '';
+    fill: currentColor;
+  }
+}
+
+.footer-link {
+  color: $white-text;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+
+  &:focus,
+  &:hover {
+    color: $white-text;
+    border-radius: 50%;
+    background-color: $blue-text;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.footer-form {
+  display: flex;
+  margin-left: 93px;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+.footer-form__title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  color: $white-text;
+}
+
+.form-subscribe {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: $black-backgr;
+  margin-top: 20px;
+  outline: none;
+  color: $white-text;
+  padding-left: 16px;
+}
+
+.form-subscribe__button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background: $blue-text;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: $white-text;
+  border: none;
+}
+
+.button-form {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-form__icon {
+  content: '';
+  fill: currentColor;
+  margin-left: 10px;
+}

@@ -1,0 +1,52 @@
+.site-footer,
+.footer-logo,
+.footer-container__contact,
+.footer-container {
+  display: flex;
+}
+
+.site-footer {
+  background-color: $black-backgr;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  justify-content: baseline;
+}
+
+.footer-container__contact {
+  flex-direction: column;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  color: $white-text;
+}
+
+.footer address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-align: left;
+}
+
+.footer-address__info {
+  color: $white-text;
+  font-style: normal;
+}
+
+.footer-contact,
+.footer-contact__item {
+  margin-top: 9px;
+  text-align: left;
+}
+
+.footer-contact__link {
+  text-decoration: none;
+  color: $gray-text-op60;
+  font-style: normal;
+}
