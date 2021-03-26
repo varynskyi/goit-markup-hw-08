@@ -30,6 +30,20 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/herobg.jpg);
+    max-width: 1600px;
+    height: 600px;
+    margin: 0;
+  }
+}
+
 .hero-section__title {
   width: 360px;
   color: $white-text;
@@ -42,6 +56,14 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 118px;
+}
+
+@media (min-width: 1200px) {
+  .hero-section__title {
+    font-size: 44px;
+    margin-top: 200px;
+    width: 696px;
+  }
 }
 
 .hero-section__button {

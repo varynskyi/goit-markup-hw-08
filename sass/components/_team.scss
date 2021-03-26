@@ -11,6 +11,13 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .team-section__container {
+    width: 1600px;
+    padding: 94px 200px;
+  }
+}
+
 .team-card__image {
   width: 450px;
 }
@@ -18,6 +25,12 @@
 @media (min-width: 768px) {
   .team-card__image {
     width: 354px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-card__image {
+    width: 270px;
   }
 }
 
@@ -55,6 +68,13 @@
 @media (min-width: 768px) {
   .team-card__item {
     width: 354px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-card__item {
+    width: 270px;
     margin-bottom: 0;
   }
 }

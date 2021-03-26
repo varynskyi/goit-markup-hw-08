@@ -1,6 +1,11 @@
-.client-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.client-section__container {
+  padding: 60px 0;
+}
+
+@media (min-width: 1200px) {
+  .client-section__container {
+    padding: 94px 0;
+  }
 }
 
 .client-info {
@@ -8,6 +13,12 @@
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+}
+
+@media (min-width: 1200px) {
+  .client-info {
+    justify-content: space-between;
+  }
 }
 
 .client-info > .client-info__card {
@@ -31,7 +42,6 @@
   text-align: center;
   color: $gray-icon;
   outline: 1px solid $gray-icon;
-  border-radius: 4px;
 
   &:hover,
   &:focus {
@@ -44,6 +54,12 @@
 @media (min-width: 768px) {
   .client-info__logo {
     width: 226px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .client-info__logo {
+    width: 170px;
   }
 }
 

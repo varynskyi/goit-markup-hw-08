@@ -30,6 +30,18 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .site-contacts {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-contacts__item {
+    margin-left: 255px;
+  }
+}
+
 .site-header__container {
   border-bottom: 1px solid $bord;
 }
@@ -48,6 +60,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .header-logo {
+    margin-right: 43px;
+  }
+}
+
 .site-logo__span {
   color: $blue-text;
 }
@@ -55,6 +73,13 @@
 @media (min-width: 768px) {
   .site-menu__item {
     margin-right: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-menu__item {
+    margin-left: 50px;
+    margin-right: 0;
   }
 }
 
@@ -193,5 +218,12 @@
 @media (min-width: 767px) {
   .site-contacts__item:last-child {
     margin-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-contacts__item:last-child {
+    margin-left: 50px;
+    margin-top: 0;
   }
 }
