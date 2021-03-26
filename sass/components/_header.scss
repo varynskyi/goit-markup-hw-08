@@ -10,7 +10,7 @@
   display: none;
 }
 
-.site-header {
+.site-header__container {
   border-bottom: 1px solid $bord;
 }
 
@@ -28,6 +28,17 @@
   position: relative;
 }
 
+.site-mobile__button {
+  background-color: $white-text;
+  border: none;
+
+  &:hover,
+  &:focus {
+    color: $blue-text;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
 .site-mobile {
   display: flex;
   position: absolute;
@@ -35,12 +46,6 @@
   right: 10px;
   color: $black-text;
   cursor: pointer;
-
-  &:hover,
-  &:focus {
-    color: $blue-text;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
 }
 
 .site-mobile__icon {

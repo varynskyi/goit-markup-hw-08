@@ -1,0 +1,119 @@
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 480px;
+  height: 100vh;
+  background-color: $white-text;
+  z-index: 999;
+  transform: translateX(200%);
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.mobile-close__button {
+  position: absolute;
+  right: 25.3px;
+  top: 21px;
+  color: $black-text;
+  background-color: $white-text;
+  border: none;
+  cursor: pointer;
+  color: $black-text;
+
+  &:hover,
+  &:focus {
+    color: $blue-text;
+  }
+}
+
+.mobile-close__icon {
+  content: '';
+  fill: currentColor;
+}
+
+.mobile-menu__container {
+  padding: 48px 40px;
+}
+
+.mobile-menu__link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: $black-text;
+
+  &:hover,
+  &:focus {
+    color: $blue-text;
+  }
+}
+
+.mobile-menu__item {
+  margin-bottom: 32px;
+}
+
+.mobile-contacts {
+  margin-top: 170px;
+}
+
+.mobile-contacts__phone {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: $blue-text;
+  text-decoration: none;
+}
+
+.mobile-contacts__mail {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: $gray-text;
+  text-decoration: none;
+}
+
+.mobile-contacts__item:last-child {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.mobile-links {
+  display: flex;
+}
+
+.mobile-links__link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: $blue-text;
+  text-decoration: none;
+}
+
+.mobile-links__item {
+  margin-right: 20px;
+  padding-right: 10px;
+  border-right: 1px solid $mobile-border;
+}
+
+.mobile-links__item:last-child {
+  border: none;
+}
