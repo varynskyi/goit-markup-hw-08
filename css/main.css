@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(-black-text);
+  color: #212121;
 }
 
 ul {
@@ -14,15 +14,9 @@ ul {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container {
     max-width: 738px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
   }
 }
 
