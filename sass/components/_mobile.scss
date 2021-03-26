@@ -40,7 +40,7 @@
   padding: 48px 40px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .mobile-menu__container {
     display: none;
   }

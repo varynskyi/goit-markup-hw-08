@@ -39,7 +39,13 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  text-align: left;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-address {
+    text-align: left;
+  }
 }
 
 .footer-address__info {
