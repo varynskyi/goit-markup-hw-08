@@ -8,10 +8,16 @@ ul {
 }
 
 .container {
-  width: 450px;
+  max-width: 450px;
   padding: 0 15px;
   margin: 0 auto;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 738px;
+  }
 }
 
 * {

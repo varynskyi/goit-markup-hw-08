@@ -24,7 +24,6 @@
   background-color: $white-text;
   border: none;
   cursor: pointer;
-  color: $black-text;
 
   &:hover,
   &:focus {
@@ -39,6 +38,12 @@
 
 .mobile-menu__container {
   padding: 48px 40px;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu__container {
+    display: none;
+  }
 }
 
 .mobile-menu__link {
