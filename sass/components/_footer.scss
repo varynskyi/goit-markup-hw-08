@@ -2,6 +2,26 @@
   background-color: $black-backgr;
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 480px;
+}
+
+@media (min-width: 768px) {
+  .site-footer__container {
+    max-width: 768px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    padding: 60px 89px 60px 76px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-container__tablet {
+    display: flex;
+  }
 }
 
 .footer-container__contact {
@@ -12,7 +32,7 @@
   color: $white-text;
 }
 
-.footer address {
+.footer-address {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
