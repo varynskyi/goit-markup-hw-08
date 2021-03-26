@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(-black-text);
+  color: $black-text;
 }
 
 ul {
@@ -14,7 +14,7 @@ ul {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container {
     max-width: 738px;
   }
