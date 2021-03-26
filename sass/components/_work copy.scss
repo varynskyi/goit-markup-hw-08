@@ -1,0 +1,32 @@
+.work-section,
+.work-list {
+  display: flex;
+}
+
+.work-section {
+  padding-bottom: 94px;
+}
+
+.work-list {
+  justify-content: space-between;
+}
+
+.work-list__item {
+  position: relative;
+}
+
+.work-list__description {
+  position: absolute;
+  width: 100%;
+  padding: 27px 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: $white-text;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}

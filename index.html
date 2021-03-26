@@ -41,6 +41,13 @@
                             +38 096 111 11 11</a>
                     </li>
                 </ul>
+
+                <div class="site-mobile">
+                    <svg class="site-mobile__icon" width="40" height="40">
+                        <use href="images/icons.svg#icon-menu">
+                        </use>
+                    </svg>
+                </div>
             </nav>
         </div>
     </header>
@@ -65,7 +72,7 @@
                         </div>
                         <h3 class="info-icon__title">Внимание к деталям</h3>
                         <p class="info-icon__description">
-                            Идейные соображения, а также <br> начало повседневной работы по <br> форматированию позиции.
+                            Идейные соображения, а также начало повседневной работы по форматированию позиции.
                         </p>
                     </li>
                     <li class="info-list__item">
@@ -77,7 +84,7 @@
                         </div>
                         <h3 class="info-icon__title">Пунктуальность</h3>
                         <p class="info-icon__description">
-                            Задача организации, в особенности <br> же рамки и мето обучения кардов <br> влечет за собой.
+                            Задача организации, в особенности же рамки и мето обучения кардов влечет за собой.
                         </p>
                     </li>
                     <li class="info-list__item">
@@ -89,7 +96,7 @@
                         </div>
                         <h3 class="info-icon__title">Планирование</h3>
                         <p class="info-icon__description">
-                            Равный образом консультация с <br> широким активом в значительной <br> степени
+                            Равный образом консультация с широким активом в значительной степени
                             обуславливает.
                         </p>
                     </li>
@@ -102,7 +109,7 @@
                         </div>
                         <h3 class="info-icon__title">Современные технологии</h3>
                         <p class="info-icon__description">
-                            Значимость этих проблем настолько <br> очевидна, что реализация плановых <br> заданий.
+                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
                     </li>
                 </ul>
@@ -134,7 +141,8 @@
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="team-card">
                     <li class="team-card__item">
-                        <img src="images/img4.jpg" class="team-card__image" alt="" width="270">
+                        <img srcset="images/img4.jpg 1x, images/img4x2.jpg 2x" src="images/img4.jpg"
+                            class="team-card__image" alt="" width="270" loading="lazy">
                         <h4 class="team-card__name">Игорь Демьяненко</h4>
                         <p class="team-card__prof">Product Designer</p>
                         <div class="soc-link">
@@ -165,7 +173,8 @@
                         </div>
                     </li>
                     <li class="team-card__item">
-                        <img src="images/img5.jpg" class="team-card__image" alt="" width="270">
+                        <img srcset="images/img5.jpg 1x, images/img5x2.jpg 2x" src="images/img5.jpg"
+                            class="team-card__image" alt="" width="270" loading="lazy">
                         <h4 class="team-card__name">Ольга Репина</h4>
                         <p class="team-card__prof">Frontend Developer</p>
                         <div class="soc-link">
@@ -196,7 +205,8 @@
                         </div>
                     </li>
                     <li class="team-card__item">
-                        <img src="images/img6.jpg" class="team-card__image" alt="" width="270">
+                        <img srcset="images/img6.jpg 1x, images/img6x2.jpg 2x" src="images/img6.jpg"
+                            class="team-card__image" alt="" width="270" loading="lazy">
                         <h4 class="team-card__name">Николай Тарасов</h4>
                         <p class="team-card__prof">Marketing</p>
                         <div class="soc-link">
@@ -227,7 +237,8 @@
                         </div>
                     </li>
                     <li class="team-card__item">
-                        <img src="images/img7.jpg" class="team-card__image" alt="" width="270">
+                        <img srcset="images/img7.jpg 1x, images/img7x2.jpg 2x" src="images/img7.jpg"
+                            class="team-card__image" alt="" width="270" loading="lazy">
                         <h4 class="team-card__name">Михаил Ермаков</h4>
                         <p class="team-card__prof">UI Designer</p>
                         <div class="soc-link">
@@ -397,60 +408,61 @@
                     </use>
                 </svg>
             </button>
-            <form class="form-modal"></form>
-            <div class="modal-form">
-                <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+            <form class="form-modal">
+                <div class="modal-form">
+                    <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
 
-                <label class="modal-label">Имя</label>
-                <div class="modalname">
-                    <input class="modal-name" type="text" name="name" placeholder="">
-                    <svg class="modalname-icon" width="12" height="12">
-                        <use href="images/icons.svg#icon-userform-1">
-                        </use>
-                    </svg>
-                </div>
-
-                <label class="modal-label">Телефон</label>
-                <div class="modalphone">
-                    <input class="modal-phone" type="text" name="phone" placeholder="">
-                    <svg class="modalphone-icon" width="13" height="13">
-                        <use href="images/icons.svg#icon-phoneform-1">
-                        </use>
-                    </svg>
-                </div>
-
-                <label class="modal-label">Почта</label>
-                <div class="modalmail">
-                    <input class="modal-mail" type="text" name="mail" placeholder="">
-                    <svg class="modalmail-icon" width="15" height="12">
-                        <use href="images/icons.svg#icon-mail">
-                        </use>
-                    </svg>
-                </div>
-                <div class="modal-com">
-                    <label class="modal-label">Коментарий
-                        <textarea class="modal-comment" name="comment" placeholder="Введите текст"></textarea>
-                    </label>
-                </div>
-                <div class="modalcheck">
-                    <input class="modal-check" type="checkbox" id="check" name="check" value="yes">
-                    <label class="check-label" for="check">
-                        <svg class="check-icon" width="16" height="15">
-                            <use href="images/icons.svg#icon-check-1">
+                    <label class="modal-label">Имя</label>
+                    <div class="modalname">
+                        <input class="modal-name" type="text" name="name" placeholder="">
+                        <svg class="modalname-icon" width="12" height="12">
+                            <use href="images/icons.svg#icon-userform-1">
                             </use>
                         </svg>
-                        <svg class="check-icon-1" width="16" height="15">
-                            <use href="images/icons.svg#icon-check-2">
+                    </div>
+
+                    <label class="modal-label">Телефон</label>
+                    <div class="modalphone">
+                        <input class="modal-phone" type="text" name="phone" placeholder="">
+                        <svg class="modalphone-icon" width="13" height="13">
+                            <use href="images/icons.svg#icon-phoneform-1">
                             </use>
                         </svg>
-                        Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
-                    </label>
+                    </div>
+
+                    <label class="modal-label">Почта</label>
+                    <div class="modalmail">
+                        <input class="modal-mail" type="text" name="mail" placeholder="">
+                        <svg class="modalmail-icon" width="15" height="12">
+                            <use href="images/icons.svg#icon-mail">
+                            </use>
+                        </svg>
+                    </div>
+                    <div class="modal-com">
+                        <label class="modal-label">Коментарий
+                            <textarea class="modal-comment" name="comment" placeholder="Введите текст"></textarea>
+                        </label>
+                    </div>
+                    <div class="modalcheck">
+                        <input class="modal-check" type="checkbox" id="check" name="check" value="yes">
+                        <label class="check-label" for="check">
+                            <svg class="check-icon" width="16" height="15">
+                                <use href="images/icons.svg#icon-check-1">
+                                </use>
+                            </svg>
+                            <svg class="check-icon-1" width="16" height="15">
+                                <use href="images/icons.svg#icon-check-2">
+                                </use>
+                            </svg>
+                            Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+                        </label>
+                    </div>
+                    <button class="modal-send-button">Отправить</button>
                 </div>
-                <button class="modal-send-button">Отправить</button>
-                </form>
-            </div>
+            </form>
         </div>
     </div>
+
 
     <script src="./js/modal.js">
     </script>

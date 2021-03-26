@@ -1,25 +1,22 @@
-.team-section__container {
-  width: 480px;
-  padding: 60px 0 30px 0;
+.team-section,
+.team-card {
+  display: flex;
+}
+
+.team-section {
+  padding: 94px 0;
   background-color: $gray-backgr;
 }
 
-.team-card__image {
-  width: 450px;
-}
-
 .team-card {
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .team-card__item {
-  width: 450px;
-  margin: 0 auto;
   background-color: $white-text;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px;
 }
 
 .team-card__name {

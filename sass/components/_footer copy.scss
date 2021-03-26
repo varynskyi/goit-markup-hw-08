@@ -1,7 +1,18 @@
-.site-footer__container {
+.site-footer,
+.footer-logo,
+.footer-container__contact,
+.footer-container {
+  display: flex;
+}
+
+.site-footer {
   background-color: $black-backgr;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  justify-content: baseline;
 }
 
 .footer-container__contact {
@@ -9,6 +20,7 @@
 }
 
 .footer-logo {
+  margin-bottom: 20px;
   color: $white-text;
 }
 
@@ -25,13 +37,12 @@
 .footer-address__info {
   color: $white-text;
   font-style: normal;
-  margin-top: 20px;
 }
 
 .footer-contact,
 .footer-contact__item {
-  margin-top: 8px;
-  text-align: center;
+  margin-top: 9px;
+  text-align: left;
 }
 
 .footer-contact__link {
