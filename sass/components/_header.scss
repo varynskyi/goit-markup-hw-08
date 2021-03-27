@@ -1,68 +1,48 @@
 .site-header__nav {
   display: flex;
-}
 
-.site-menu {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .site-menu {
-    display: flex;
-  }
-}
-
-@media (min-width: 768px) {
-  .site-header__nav {
+  @media (min-width: 768px) {
     justify-content: space-between;
     align-items: center;
   }
 }
 
-.site-contacts {
+.site-menu {
   display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
 }
 
-@media (min-width: 768px) {
-  .site-contacts {
+.site-contacts {
+  display: none;
+
+  @media (min-width: 768px) {
     display: block;
     text-align: left;
   }
 }
 
-@media (min-width: 1200px) {
-  .site-contacts {
-    display: flex;
-  }
-}
-
-@media (min-width: 1200px) {
-  .site-contacts__item {
-    margin-left: 255px;
-  }
-}
-
-.site-header__container {
+.site-header {
+  max-width: 480px;
   border-bottom: 1px solid $bord;
+  position: relative;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
 }
 
 .header-logo {
   color: $black-text;
   margin-bottom: 16px;
   margin-top: 16px;
-}
 
-@media (min-width: 768px) {
-  .header-logo {
+  @media (min-width: 768px) {
     margin-bottom: 26px;
     margin-top: 26px;
     margin-right: 40px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .header-logo {
-    margin-right: 43px;
   }
 }
 
@@ -74,17 +54,6 @@
   .site-menu__item {
     margin-right: 50px;
   }
-}
-
-@media (min-width: 1200px) {
-  .site-menu__item {
-    margin-left: 50px;
-    margin-right: 0;
-  }
-}
-
-.site-header__container {
-  position: relative;
 }
 
 .site-mobile__button {
@@ -105,10 +74,8 @@
 
 .site-mobile {
   display: flex;
-}
 
-@media (min-width: 767px) {
-  .site-mobile {
+  @media (min-width: 768px) {
     display: none;
   }
 }
@@ -118,7 +85,7 @@
   fill: currentColor;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .site-menu__link {
     position: relative;
     display: block;
@@ -160,7 +127,7 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .current {
     position: relative;
 
@@ -177,7 +144,7 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .site-contacts__link {
     color: $gray-text;
     font-style: normal;
@@ -200,7 +167,7 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .site-contacts__icon {
     content: '';
     fill: currentColor;
@@ -215,15 +182,8 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .site-contacts__item:last-child {
     margin-top: 10px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .site-contacts__item:last-child {
-    margin-left: 50px;
-    margin-top: 0;
   }
 }

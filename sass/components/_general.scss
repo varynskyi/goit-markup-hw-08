@@ -12,16 +12,12 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
   text-align: center;
-}
 
-@media (min-width: 768px) {
-  .container {
+  @media (min-width: 768px) {
     max-width: 738px;
   }
-}
 
-@media (min-width: 1200px) {
-  .container {
+  @media (min-width: 1200px) {
     max-width: 1200px;
   }
 }
@@ -49,10 +45,8 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
 
-@media (min-width: 1200px) {
-  .site-logo {
+  @media (min-width: 1200px) {
     font-size: 26px;
   }
 }

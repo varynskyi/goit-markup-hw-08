@@ -7,6 +7,11 @@
 .cards-section {
   padding-top: 60px;
   padding-bottom: 40px;
+  max-width: 480px;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
 }
 
 .group-buttons {
