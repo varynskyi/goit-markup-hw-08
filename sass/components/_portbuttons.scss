@@ -12,16 +12,27 @@
   @media (min-width: 768px) {
     max-width: 768px;
   }
+
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 94px;
+  }
 }
 
 .group-buttons {
   display: flex;
   flex-wrap: wrap;
+
+  @media (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .group-nav {
     justify-content: center;
+    margin-bottom: 56px;
   }
 }
 
@@ -50,10 +61,13 @@
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-}
 
-@media (min-width: 768px) {
-  .group-buttons__button {
+  @media (min-width: 768px) {
     margin-bottom: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    display: inline-flex;
+    margin: 0 8px 0 0;
   }
 }

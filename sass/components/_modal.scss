@@ -26,6 +26,10 @@
   border-radius: 4px;
   margin: 0;
   padding: 0;
+
+  @media (min-width: 1200px) {
+    width: 528px;
+  }
 }
 
 .button-modal {
@@ -96,6 +100,10 @@
   outline: none;
   color: $black-text;
   cursor: pointer;
+
+  @media (min-width: 1200px) {
+    width: 448px;
+  }
 }
 
 .modal-name {
@@ -136,6 +144,11 @@
   margin-bottom: 10px;
   margin-top: 3px;
 
+  @media (min-width: 1200px) {
+    margin-bottom: 20px;
+    width: 448px;
+  }
+
   &:hover,
   &:focus {
     border-color: $blue-modal;
@@ -151,6 +164,10 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: $gray-text;
+
+  @media (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .check-label a {
@@ -161,6 +178,10 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: $blue-text;
+
+  @media (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .modalname,
@@ -245,6 +266,10 @@
   color: $white-text;
   border: none;
   margin: 31px auto;
+
+  @media (min-width: 1200px) {
+    margin: 30px auto;
+  }
 
   &:hover,
   &:focus {

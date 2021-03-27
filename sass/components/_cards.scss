@@ -1,3 +1,10 @@
+@media (min-width: 1200px) {
+  .cards-section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 .cards-group > .cards-group__item {
   outline: 1px solid $bord-card;
 
@@ -40,13 +47,21 @@
   }
 }
 
-.cards__image {
-  width: 450px;
+@media (min-width: 1200px) {
+  .cards-group__item {
+    max-width: 370px;
+  }
 }
 
-@media (min-width: 768px) {
-  .cards__image {
+.cards__image {
+  width: 450px;
+
+  @media (min-width: 768px) {
     width: 354px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 370px;
   }
 }
 

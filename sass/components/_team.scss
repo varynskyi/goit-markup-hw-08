@@ -1,18 +1,28 @@
 .team-section {
-  width: 480px;
+  max-width: 480px;
   padding: 60px 0 30px 0;
   background-color: $gray-backgr;
 
   @media (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
     padding: 60px 0;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1600px;
+    padding: 94px 0;
   }
 }
 
 @media (min-width: 768px) {
-  team-section__container {
+  .team-section__container {
     width: 768px;
-    padding: 0 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-section__container {
+    width: 1170px;
   }
 }
 
@@ -21,6 +31,10 @@
 
   @media (min-width: 768px) {
     width: 354px;
+  }
+
+  @media (min-width: 768px) {
+    width: 270px;
   }
 }
 
@@ -32,6 +46,10 @@
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+  }
+
+  @media (min-width: 1200px) {
+    justify-content: space-between;
   }
 }
 
@@ -55,6 +73,10 @@
   @media (min-width: 768px) {
     width: 354px;
     margin-bottom: 0;
+  }
+
+  @media (min-width: 1200px) {
+    width: 270px;
   }
 }
 
